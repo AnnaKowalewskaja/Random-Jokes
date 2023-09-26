@@ -1,16 +1,18 @@
+/* $handwrittenFont='Caveat',cursive; */
 html {
   box-sizing: border-box;
 }
 
 body {
   background: #F2F2F2;
-  font-family: Arial, sans-serif;
+  font-family: "Alegreya", serif;
   font-size: 10px;
   color: #0F1E36;
 }
 
 button {
   cursor: pointer;
+  transition: all 0.3s ease-in;
 }
 
 a {
@@ -103,11 +105,20 @@ p {
 .quotes__button {
   font-size: 1rem;
   text-transform: uppercase;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3%;
+}
+
+.quotes__button:hover {
+  transition: all 0.3s ease-in;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .quotes__author {
-  font-style: italic;
-  font-size: 1.1rem;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
   margin-top: -1rem;
   margin-bottom: 2rem;
 }
@@ -117,6 +128,8 @@ p {
 }
 
 .quotes__text {
-  font-size: 1.2rem;
+  font-size: 2.3rem;
   margin-bottom: 2rem;
+  transition: all 0.3s ease-in;
+  font-family: "Caveat", cursive;
 }/*# sourceMappingURL=style.css.map */

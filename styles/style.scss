@@ -7,7 +7,7 @@ html {
 body {
 
   background: $background_color;
-  font-family: Arial, sans-serif;
+  font-family: 'Alegreya', serif;
   font-size: 10px;
   color: #0F1E36;
 
@@ -16,6 +16,7 @@ body {
 
 button {
   cursor: pointer;
+  transition: $main_animation;
 }
 
 a {
@@ -99,6 +100,7 @@ p {
   margin-top: 3rem;
   margin-bottom: 3rem;
   max-width: 80%;
+  
 }
 
 .quotes{
@@ -112,19 +114,34 @@ p {
 .quotes__button{
   font-size: 1rem;
   text-transform: uppercase;
+  border: none;
+  padding: .5rem;
+  border-radius: 3%;
+}
+.quotes__button:hover{
+  
+  transition: $main_animation;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .quotes__author{
-  font-style: italic;
-  font-size: 1.1rem;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
   margin-top: -1rem;
   margin-bottom: 2rem;
+
 }
+
 .quotes__img{
   margin-bottom: 2rem;
+
 }
 
 .quotes__text{
-  font-size: 1.2rem;
+  font-size: 2.3rem;
   margin-bottom: 2rem;
+  transition: $main_animation;
+  font-family: 'Caveat', cursive;
+
 }
