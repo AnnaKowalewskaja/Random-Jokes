@@ -44,3 +44,4 @@ function changeQuotes() {
 
 setTimeout(changeQuotes, 200);
 
+console.log('60/70');
